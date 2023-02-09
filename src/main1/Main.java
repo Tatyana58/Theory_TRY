@@ -1,3 +1,5 @@
+package main1;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 
@@ -60,4 +62,5 @@ public class Main {
             throw new IllegalArgumentException(file.getPath() + " is a directory");
         }
     }
+
 }
